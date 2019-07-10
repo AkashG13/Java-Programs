@@ -22,10 +22,11 @@ public class Tsk5 {
     long calc=525600;
     Scanner sc= new Scanner(System.in);
     long min;
+System.out.println("Enter no. of mins: ");
     min=sc.nextLong();
     long year=(long)min/calc;
     int days=(int)(min/60/24)%365;
-    System.out.println(min+" ="+year+" "+days);
+    System.out.println(min+" = "+year+" Years "+days+" Days");
     
     }
     
